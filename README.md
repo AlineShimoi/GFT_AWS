@@ -14,3 +14,9 @@ Amazon CloudFormation
 É um processo de criação de recursos via arquivo JSON e YAML.
 A criação das Stacks pode ser feita usando um modelo existente, carregando um template via S3 URL ou ainda pelo upload de um template.
 Para mais informações, é possível utilizar a documentação: https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/cfn-console-create-stack.html
+
+Tarefas automatizadas
+É possível usar ferramentas de diferentes fornecedores para automatizar as atividades no AWS, algumas dessas ferramentas são o VsCode, Local Stack, NoSQL, Postman (e para desenho de arquitetura, drawio)
+Local Stack: é um projeto OpenSource que simula localmente o ambiente AWS com seus recursos. É possível conectar com o NoSQL para consultas de banco de dados, e com linha de comando acessar, criar e configurar os recursos do ambiente. Essa ferramenta é muito útil para a execução de testes e simulações em ambiente neutro.
+A configuração do Lambda é atualizado/criado subindo o arquivo (pode ser zip) na configuração do seu Lambda no Local Stack.
+No laboratório foi explorado o método GET e POST, assim como o uso do Postman para consulta da AWS via API.
